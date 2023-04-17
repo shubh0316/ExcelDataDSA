@@ -67,11 +67,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataStructures\GetArray.cs" />
-    <Compile Include="DataStructures\LinkedList.cs" />
-    <Compile Include="DataStructures\List.cs" />
-    <Compile Include="DataStructures\Queue.cs" />
-    <Compile Include="DataStructures\Stack.cs" />
+    <Compile Include="App.cs" />
+    <Compile Include="DataStructures\MyArray.cs" />
+    <Compile Include="DataStructures\LinkedList\MyDoublyLinkedList.cs" />
+    <Compile Include="DataStructures\LinkedList\MySinglyLinkedList.cs" />
+    <Compile Include="DataStructures\MyList.cs" />
+    <Compile Include="DataStructures\LinkedList\Node.cs" />
+    <Compile Include="DataStructures\MyQueue.cs" />
+    <Compile Include="DataStructures\MyStack.cs" />
     <Compile Include="FetchData.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />

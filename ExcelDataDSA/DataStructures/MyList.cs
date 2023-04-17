@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 namespace ExcelDataDSA.DataStructures
 {
-    internal class List
+    internal class MyList
     {
         List<Person> listOfData = new List<Person>();
         public void AddingDataInList()
